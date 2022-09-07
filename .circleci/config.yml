@@ -77,4 +77,4 @@ workflows:
     jobs:
       - say-hello-4:
           requires:
-            - destroy
+            - destroy-workflow
