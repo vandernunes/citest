@@ -15,6 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
+          type: approval
           name: "Say hello"
           command: "echo Hello, World!"
 
