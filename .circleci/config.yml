@@ -76,4 +76,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello-4:
-          type: approval
+          requires:
+            - destroy
